@@ -68,7 +68,7 @@ export function calculateRFM(customers: RfmInput[]): RfmResult[] {
       r, f, m,
       rfm_score,
       segment: segment(r, f, m, rfm_score),
-    })
+    }
   })
 }
 
